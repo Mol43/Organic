@@ -1,4 +1,5 @@
-import LogoHeader from "../components/LogoHeader"
+import LogoHeader from "../components/common/LogoHeader"
+
 
 
 
