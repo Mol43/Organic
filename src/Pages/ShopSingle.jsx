@@ -72,7 +72,7 @@ function ShopSingle() {
             It offers about 8–10% carbs. Simple sugars — such as glucose and fructose — make up 70% and 80% of the carbs in raw.</p>
         </div>
       </section>
-
+      
       <Footer />
     </div>
   );
