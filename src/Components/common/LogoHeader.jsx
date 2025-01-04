@@ -1,6 +1,3 @@
-
-
-
 function LogoHeader( { bgImg , title }) {
     return (
       <div className={`w-full h-[350px] flex items-center justify-center relative`}>
