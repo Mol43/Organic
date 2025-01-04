@@ -1,12 +1,9 @@
-
-
-
-import ShopSingle from './Pages/ShopSingle'
+import Home from "./Pages/Home"
 
 function App() {
   return (
     <>
-     <ShopSingle />
+    <Home />
     </>
   )
 }
