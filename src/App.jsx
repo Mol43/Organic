@@ -1,4 +1,5 @@
-import ShopSingle from "./Pages/ShopSingle"
+import Portfolio from "./Pages/Portfolio"
+
 
 
 
@@ -6,7 +7,7 @@ import ShopSingle from "./Pages/ShopSingle"
 function App() {
   return (
     <>
-      <ShopSingle />
+      <Portfolio />
     </>
   )
 }
