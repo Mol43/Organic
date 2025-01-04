@@ -1,12 +1,15 @@
 import { FaArrowRight, FaStar } from "react-icons/fa";
 import LogoHeader from "../components/common/LogoHeader";
 import { useState } from "react";
+import Footer from "../components/ui/Footer";
+import Navbar from "../components/ui/Navbar";
 
 function ShopSingle() {
   const [num, setNum] = useState(1)
   const [btn, setBtn] = useState("desc")
   return (
     <div>
+      <Navbar />
       <LogoHeader bgImg={`/Banner Image.png`} title={`Shop Single`} />
 
       <section>
@@ -70,7 +73,7 @@ function ShopSingle() {
         </div>
       </section>
 
-      
+      <Footer />
     </div>
   );
 }

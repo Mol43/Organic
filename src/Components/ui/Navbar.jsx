@@ -1,11 +1,6 @@
-<<<<<<< HEAD
-
-
-=======
 import { useState } from 'react';
 import { FaChevronDown, FaChevronUp } from 'react-icons/fa';
 import { MdOutlineShoppingCart } from 'react-icons/md';
->>>>>>> b9ae3954b4650e08514368d6f48ebce38103eb17
 
 const Navbar = () => {
     const [search, setSearch] = useState('');
@@ -35,7 +30,7 @@ const Navbar = () => {
                         Pages{isArrowUp ? <FaChevronUp size={10} /> : <FaChevronDown size={10} />}
                     </a>
                     {isDropdownOpen && (
-                        <div className="absolute left-0  w-40 bg-white border rounded shadow-md">
+                        <div className="absolute left-0  w-40 bg-white border rounded shadow-md z-10">
                             <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Page 1</a>
                             <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Page 2</a>
                             <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Page 3</a>
