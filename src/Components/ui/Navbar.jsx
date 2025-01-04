@@ -12,7 +12,7 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="flex items-center justify-between p-5 bg-gray-100 text-[#274C5B] shadow-md">
+        <nav className="flex items-center justify-between p-5 bg-gray-100 text-[#274C5B] shadow-md z-10">
             <a href='#' className="flex items-center">
                 <img src="./Logo.png" alt="Logo" className="w-7 mr-2" />
                 <p className="text-lg font-bold">Organick</p>
@@ -49,7 +49,7 @@ const Navbar = () => {
                         placeholder="Search"
                         value={search}
                         onChange={handleSearchChange}
-                        className="px-4 py-2 rounded-l-full focus:outline-none"
+                        className="px-4 py-2 rounded-l-full focus:outline-none bg-white"
                     />
                     <button className="p-2 bg-green-500 rounded-full text-white hover:bg-green-600">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5">

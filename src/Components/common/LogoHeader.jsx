@@ -1,7 +1,8 @@
-
+import PropTypes from "prop-types";
 
 
 function LogoHeader( { bgImg , title }) {
+  
     return (
       <div className={`w-full h-[350px] flex items-center justify-center relative mt-4`}>
           <img src={bgImg} alt="img" className="w-full h-full absolute top-0 left-0" />
@@ -10,5 +11,10 @@ function LogoHeader( { bgImg , title }) {
     )
   }
   
+  LogoHeader.propTypes = {
+    title: PropTypes.string.isRequired,
+    bgImg: PropTypes.string.isRequired,   
+  };
+
   export default LogoHeader
   
