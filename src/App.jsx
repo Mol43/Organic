@@ -9,7 +9,8 @@ function App() {
   return (
     <>
     <WhyChooseUs />
-     {/* <Home /> */}
+     <Home />
+    <
     </>
   )
 }
