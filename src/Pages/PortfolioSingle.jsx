@@ -1,3 +1,4 @@
+import EntrEmail from "../Components/common/EntrEmail"
 import Footer from "../components/ui/Footer"
 import Navbar from "../components/ui/Navbar"
 
@@ -66,7 +67,7 @@ function PortfolioSingle() {
                     {`Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and auncover many web sites still in their infancy. Various versions have evolved over the years`}
                 </p>
             </section>
-
+            <EntrEmail />
             <Footer />
         </div>
     )

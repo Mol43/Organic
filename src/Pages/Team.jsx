@@ -2,6 +2,7 @@ import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa"
 import LogoHeader from "../components/common/LogoHeader"
 import Footer from "../components/ui/Footer"
 import Navbar from "../components/ui/Navbar"
+import EntrEmail from "../Components/common/EntrEmail"
 
 
 
@@ -81,7 +82,7 @@ function Team() {
     return (
         <div>
             <Navbar />
-            <LogoHeader bgImg="/Image (3).png" title="Our Team" />
+            <LogoHeader bgImg="/TeamBG.png" title="Our Team" />
 
             <section className="w-8/12 h-auto text-center my-20 mx-auto">
                 <p className="text-[36px] text-[#7EB693] font-sans">Team</p>
@@ -113,6 +114,7 @@ function Team() {
                 </div>
             </section>
 
+            <EntrEmail />
             <Footer />
         </div>
     )

@@ -2,6 +2,7 @@ import { FaAngleRight } from "react-icons/fa"
 import LogoHeader from "../components/common/LogoHeader"
 import Footer from "../components/ui/Footer"
 import Navbar from "../components/ui/Navbar"
+import EntrEmail from "../Components/common/EntrEmail"
 
 
 
@@ -70,6 +71,7 @@ function Portfolio() {
           )
         })}
       </div>
+      <EntrEmail />
       <Footer />
     </div>
   )

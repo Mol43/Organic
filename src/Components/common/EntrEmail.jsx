@@ -3,7 +3,7 @@
 function EntrEmail() {
     return (
         <div className='flex justify-center items-center h-[300px]  relative'>
-            <img src="./Photo.png" alt="" className='absolute w-[1000px] rounded-2xl' />
+            <img src="./Green.png" alt="" className='absolute w-[1000px] rounded-2xl' />
             <div className="absolute flex gap-40 items-center">
                 <p className='font-extrabold text-[30px] text-white'>Subscribe to <br />
                     our Newsletter

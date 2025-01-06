@@ -3,6 +3,7 @@ import LogoHeader from "../components/common/LogoHeader";
 import { useState } from "react";
 import Footer from "../components/ui/Footer";
 import Navbar from "../components/ui/Navbar";
+import EntrEmail from "../Components/common/EntrEmail";
 
 function ShopSingle() {
   const [num, setNum] = useState(1)
@@ -73,6 +74,7 @@ function ShopSingle() {
         </div>
       </section>
       
+      <EntrEmail />
       <Footer />
     </div>
   );
