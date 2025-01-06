@@ -1,5 +1,6 @@
-import Portfolio from "./Pages/Portfolio"
-
+import Home from "./Pages/Home"
+import ShopSingle from "./Pages/ShopSingle"
+import WhyChooseUs from "./Pages/WhyChooseUs"
 
 
 
@@ -11,7 +12,8 @@ import Portfolio from "./Pages/Portfolio"
 function App() {
   return (
     <>
-      <Portfolio />
+    <WhyChooseUs />
+     {/* <Home /> */}
     </>
   )
 }
