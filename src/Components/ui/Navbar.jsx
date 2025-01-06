@@ -20,7 +20,7 @@ const Navbar = () => {
             </a>
 
             <div className="flex items-center space-x-8">
-                <a href="#" className="text-gray-700 hover:text-gray-900">Home</a>
+                <Link to='/' className="text-gray-700 hover:text-gray-900">Home</Link>
                 <Link to="/about" className="text-gray-700 hover:text-gray-900">About</Link>
                 <div 
                     className="relative"
@@ -38,7 +38,7 @@ const Navbar = () => {
                         </div>
                     )}
                 </div>
-                <a href="#" className="text-gray-700 hover:text-gray-900">Shop</a>
+                <Link to="/shop" className="text-gray-700 hover:text-gray-900">Shop</Link>
                 <a href="#" className="text-gray-700 hover:text-gray-900">Projects</a>
                 <a href="#" className="text-gray-700 hover:text-gray-900">News</a>
             </div>
