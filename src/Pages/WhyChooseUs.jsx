@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import { useState } from "react";
+=======
+import React, { useState } from "react";
+>>>>>>> 86170be664f56442c5b1b64b43cd75643e28e76e
 import {
   FaFacebook,
   FaHeadset,
@@ -141,7 +145,7 @@ const WhyChooseUs = () => {
 
         <div className="lg:w-1/3 mt-6 lg:mt-0 flex justify-center">
           <img
-            src="/ShopImgs/Barig.jpg.jpg"
+            src="/ShopImgs/Barig.jpg"
             alt="Product Image"
             className="w-full max-w-md rounded-xl"
           />

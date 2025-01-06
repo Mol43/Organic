@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { FaChevronDown, FaChevronUp } from 'react-icons/fa';
 import { MdOutlineShoppingCart } from 'react-icons/md';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const [search, setSearch] = useState('');
@@ -19,8 +20,8 @@ const Navbar = () => {
             </a>
 
             <div className="flex items-center space-x-8">
-                <a href="#" className="text-gray-700 hover:text-gray-900">Home</a>
-                <a href="#" className="text-gray-700 hover:text-gray-900">About</a>
+                <Link to='/' className="text-gray-700 hover:text-gray-900">Home</Link>
+                <Link to="/about" className="text-gray-700 hover:text-gray-900">About</Link>
                 <div 
                     className="relative"
                     onMouseEnter={() => { setDropdownOpen(true); setArrowUp(true); }}
@@ -37,7 +38,7 @@ const Navbar = () => {
                         </div>
                     )}
                 </div>
-                <a href="#" className="text-gray-700 hover:text-gray-900">Shop</a>
+                <Link to="/shop" className="text-gray-700 hover:text-gray-900">Shop</Link>
                 <a href="#" className="text-gray-700 hover:text-gray-900">Projects</a>
                 <a href="#" className="text-gray-700 hover:text-gray-900">News</a>
             </div>
