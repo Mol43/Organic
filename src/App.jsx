@@ -7,8 +7,7 @@ import ShopSingle from "./Pages/ShopSingle"
 function App() {
   return (
     <>
-      <Home />
-      {/* <ShopSingle /> */}
+     <Home />
     </>
   )
 }
