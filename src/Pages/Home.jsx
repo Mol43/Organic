@@ -2,6 +2,7 @@ import { FaCircleArrowRight } from 'react-icons/fa6'
 import EntrEmain from '../components/common/EntrEmain'
 import Navbar from '../components/ui/Navbar'
 import Footer from '../components/ui/Footer'
+import WhyChooseUs from './WhyChooseUs'
 
 
 
@@ -60,6 +61,9 @@ function Home() {
       <br />
       <br />
       <EntrEmain />
+      <br/>
+      <br />
+      <WhyChooseUs/>
       <Footer />
     </div>
   )

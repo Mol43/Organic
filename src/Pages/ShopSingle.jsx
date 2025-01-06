@@ -19,7 +19,7 @@ function ShopSingle() {
               Millets
             </button>
             <img
-              src="/Photo.jpg"
+              src="/Health.jpg"
               alt="img"
               className="w-full h-full rounded-3xl"
             />

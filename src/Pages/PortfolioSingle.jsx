@@ -12,7 +12,7 @@ function PortfolioSingle() {
 
             <section className="relative pb-40">
                 <div>
-                    <img src="/Photo (6).png" alt="img" />
+                    <img src="/PSingleBG.png" alt="img" />
                 </div>
                 <div className="absolute left-2/4 bottom-2 w-10/12 h-72 shadow-md -translate-x-2/4 rounded-xl bg-white flex items-center justify-between  p-20">
                     <div className="w-4/6">
@@ -49,7 +49,7 @@ function PortfolioSingle() {
                     <br />
                   {`Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and auncover many web sites still in their infancy. Various versions have evolved over the years`}
                 </p>
-                <img src="/Photo (7).png" alt="img" className="rounded-xl my-10" />
+                <img src="/Sabzi.png" alt="img" className="rounded-xl my-10" />
                 <h2 className="text-[35px] text-[#274C5B] font-bold">How To Farm:</h2>
 
                 <p className="ttext-[18px] text-[#525C60]">{`It is a long established fact that a reader will be distracted by the readable content of a page when looking a layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. `}

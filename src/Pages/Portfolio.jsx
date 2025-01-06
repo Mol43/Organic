@@ -13,37 +13,37 @@ function Portfolio() {
   const Fruits = [
     {
       id: 1,
-      img: "/Photo.png",
+      img: "/Green.png",
       title: "Green & Tasty Lemon",
       info: "Fruits",
     },
     {
       id: 2,
-      img: "/Photo (1).png",
+      img: "/Carrot.png",
       title: "Organic Carrot",
       info: "Farmer",
     },
     {
       id: 3,
-      img: "/Photo (2).png",
+      img: "/Betel.png",
       title: "Organic Betel Leaf",
       info: "Leaf",
     },
     {
       id: 4,
-      img: "/Photo (3).png",
+      img: "/Natural.png",
       title: "Natural Tommato",
       info: "Fruits",
     },
     {
       id: 5,
-      img: "/Photo (4).png",
+      img: "/Black.png",
       title: "Black Raspberry",
       info: "Farmer",
     },
     {
       id: 6,
-      img: "/photo (5).png",
+      img: "/Honey.png",
       title: "Honey Orange",
       info: "Farmer",
     },
@@ -52,7 +52,7 @@ function Portfolio() {
   return (
     <div>
       <Navbar />
-      <LogoHeader bgImg="/Image (2).png" title="Portfolio Standard" />
+      <LogoHeader bgImg="/portfolioBG.png" title="Portfolio Standard" />
 
       <div className="w-8/12 h-auto mx-auto my-20 grid grid-cols-3 gap-4">
         {Fruits.map((item) => {

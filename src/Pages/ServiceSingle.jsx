@@ -13,7 +13,7 @@ function ServiceSingle() {
             <LogoHeader bgImg="/Background.png" title="Quality Standard" />
 
             <section className="w-9/12 h-auto mx-auto my-32">
-                <img src="/Image.jpg" alt="img" />
+                <img src="/Organic.jpg" alt="img" />
 
                 <div className="w-10/12 h-auto mx-auto my-10">
                     <h2 className="text-[50px] text-[#274C5B] font-bold">Organic Store Services</h2>
@@ -25,7 +25,7 @@ function ServiceSingle() {
 
                     <div className="w-full h-96 my-4">
                         <div className="w-full h-2/4 my-4 flex items-center justify-center gap-6">
-                            <img src="/Photo (1).jpg" alt="img" className="w-2/6 h-full rounded-xl" />
+                            <img src="/Why.jpg" alt="img" className="w-2/6 h-full rounded-xl" />
                             <div className="flex items-center justify-center w-4/6 h-full">
                                 <div>
                                     <h3 className="text-[25px] text-[#274C5B] font-semibold">Why Organic</h3>
@@ -40,7 +40,7 @@ function ServiceSingle() {
                                     <p className="text-[18px] text-[#525C60]">Sed ut perspiciatis unde omnis iste natus error sit voluptat. page editors now use Lorem Ipsum as their default model text, and auncover.</p>
                                 </div>
                             </div>
-                            <img src="/Image.png" alt="img" className="w-2/6 h-full rounded-xl" />
+                            <img src="/Speciality.png" alt="img" className="w-2/6 h-full rounded-xl" />
                         </div>
                     </div>
                     <div>

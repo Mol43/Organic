@@ -1,4 +1,5 @@
-import Team from "./Pages/Team"
+import Portfolio from "./Pages/Portfolio"
+
 
 
 
@@ -10,7 +11,7 @@ import Team from "./Pages/Team"
 function App() {
   return (
     <>
-      <Team />
+      <Portfolio />
     </>
   )
 }
