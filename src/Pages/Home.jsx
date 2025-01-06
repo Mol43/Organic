@@ -1,12 +1,56 @@
-import { FaCircleArrowRight } from 'react-icons/fa6'
-import EntrEmain from '../components/common/EntrEmain'
-import Navbar from '../components/ui/Navbar'
-import Footer from '../components/ui/Footer'
+import Footer from "../Components/ui/Footer";
+import Navbar from "../Components/ui/Navbar";
+import { FaCircleArrowRight } from "react-icons/fa6";
+import EntrEmail from "../Components/common/EntrEmail";
 
+const fruits = [
+  {
+    id: 1,
+    image: "./homeBanan.jpg",
+    subtitle: "Natural!!",
+    title: "Get Garden Fresh Fruits",
+  },
+  {
+    id: 2,
+    image: "./homeOrink.png",
+    subtitle: "Fresh & Juicy!",
+    title: "Enjoy Organic Apples",
+  },
+];
 
-
-
-
+const ProductCard = ({ product }) => {
+  return (
+    <div className="bg-white shadow-lg rounded-lg p-4 max-w-xs">
+      <div className="relative">
+        <span className="bg-green-100 text-green-800 text-sm font-medium px-2.5 py-0.5 rounded absolute top-2 left-2">
+          {product.category}
+        </span>
+        <img
+          src={product.image}
+          alt={product.name}
+          className="w-full h-72 object-cover rounded-md"
+        />
+      </div>
+      <h3 className="text-lg mb-3 font-semibold mt-4">{product.name}</h3>
+      <hr />
+      <div className="flex items-center justify-between mt-2">
+        <div>
+          <span className="text-gray-500 line-through text-sm">
+            ${product.oldPrice}
+          </span>
+          <span className="text-gray-900 font-bold ml-2">${product.price}</span>
+        </div>
+        <div className="flex items-center">
+          {[...Array(product.rating)].map((_, index) => (
+            <span key={index} className="text-yellow-400">
+              &#9733;
+            </span>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+};
 
 function Home() {
   const products = [
@@ -199,18 +243,39 @@ function Home() {
         </button>
       </section>
 
+      <section className="h-screen mt-32 ">
+        <div className="">
+          <img
+            src="./homebgend.png"
+            className="h-screen w-full absolute -z-10"
+            alt=""
+          />
+          <p className="text-2xl text-[#68A47F] italic text-center font-serif">
+            Testimonial
+          </p>
+          <h2 className="text-3xl font-extrabold text-center text-[#274C5B]">
+            What Our Customer Saying?
+          </h2>
+          <div className="justify-center">
+            <img
+              src="./ava.jpg"
+              className="rounded-full flex mx-auto mt-14 w-28"
+              alt=""
+            />
+            <p className="text-center mt-10 text-[#525C60]">
+              Simply dummy text of the printing and typesetting industry. Lorem
+              Ipsum simply dummy <br /> text of the printing and typesetting
+              industry. Lorem Ipsum has been.
+            </p>
+            <h2 className="text-[#274C5B] font-extrabold text-center">
+              Sara Taylor
+            </h2>
+            <p className="text-[#525C60] text-center">Consumer</p>
+          </div>
+        </div>
+      </section>
 
-
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <EntrEmain />
+      <EntrEmail />
       <Footer />
     </div>
   );
