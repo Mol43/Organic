@@ -1,3 +1,4 @@
+import EntrEmail from "../Components/common/EntrEmail"
 import LogoHeader from "../components/common/LogoHeader"
 import Footer from "../components/ui/Footer"
 import Navbar from "../components/ui/Navbar"
@@ -64,6 +65,7 @@ function ServiceSingle() {
                 </div>
             </section>
 
+            <EntrEmail />
             <Footer />
         </div>
     )
