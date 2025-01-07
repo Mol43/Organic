@@ -22,6 +22,7 @@ function App() {
         <Route path="/about" element={<WhyChooseUs />} />
         <Route path="/News" element={<RecentNews />} />
         <Route path="*" element={<NotFaound />} />
+        <Route path="/notfound" element={<NotFaound />} />
       </Routes>
     </Router>
   );
