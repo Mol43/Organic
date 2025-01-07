@@ -1,10 +1,6 @@
-<<<<<<< HEAD
-import { useState } from "react";
-=======
 
 import { useState } from "react";
 
->>>>>>> 039f4a92a433697105cbacc7b59def227ed65b1a
 import {
   FaFacebook,
   FaHeadset,
