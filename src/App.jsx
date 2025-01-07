@@ -8,6 +8,7 @@ import WhyChooseUs from "./Pages/WhyChooseUs";
 import Shop from "./Pages/Shop";
 import NotFaound from "./Pages/NotFaound";
 import RecentNews from "./Pages/RecentNews";
+import ContackUs from "./Pages/ContackUs";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/about" element={<WhyChooseUs />} />
         <Route path="/News" element={<RecentNews />} />
         <Route path="*" element={<NotFaound />} />
+        <Route path="/contackus" element={<ContackUs />} />
       </Routes>
     </Router>
   );

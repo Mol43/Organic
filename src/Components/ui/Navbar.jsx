@@ -32,7 +32,7 @@ const Navbar = () => {
                     </a>
                     {isDropdownOpen && (
                         <div className="absolute left-0  w-40 bg-white border rounded shadow-md z-10">
-                            <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Page 1</a>
+                           <Link to="/contackus" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Contack Us</Link>
                             <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Page 2</a>
                             <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Page 3</a>
                         </div>

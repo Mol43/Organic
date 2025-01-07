@@ -1,8 +1,12 @@
-<<<<<<< HEAD
-import { useState } from "react";
-=======
+
+import EntrEmail from "../Components/common/EntrEmail";
+import Footer from "../Components/ui/Footer";
+import Navbar from "../Components/ui/Navbar";
+import LogoHeader from "../components/common/LogoHeader";
+import { GoArrowRight } from "react-icons/go";
+
 import React, { useState } from "react";
->>>>>>> 86170be664f56442c5b1b64b43cd75643e28e76e
+
 import {
   FaFacebook,
   FaHeadset,
@@ -12,11 +16,6 @@ import {
   FaTruck,
   FaTwitter,
 } from "react-icons/fa";
-import { GoArrowRight } from "react-icons/go";
-import EntrEmail from "../Components/common/EntrEmail";
-import Footer from "../Components/ui/Footer";
-import Navbar from "../Components/ui/Navbar";
-import LogoHeader from "../components/common/LogoHeader";
 
 const WhyChooseUs = () => {
   const [isChecked1, setIsChecked1] = useState(false);
