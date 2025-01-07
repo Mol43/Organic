@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 
@@ -40,7 +41,7 @@ function Footer() {
                 <p className="font-bold mb-2">Utility Pages</p>
                 <ul>
                     <li className="mb-1"><a href="#">Style Guide</a></li>
-                    <li className="mb-1"><a href="#">404 Not Found</a></li>
+                    <li className="mb-1"><Link to='/notfound'>404 Not Found</Link></li>
                     <li className="mb-1"><a href="#">Password Protected</a></li>
                     <li className="mb-1"><a href="#">Licences</a></li>
                     <li><a href="#">Changelog</a></li>

@@ -1,7 +1,14 @@
+<<<<<<< HEAD
 import { useLocation } from "react-router-dom";
 import EntrEmail from "../Components/common/EntrEmail";
 import Footer from "../Components/ui/Footer";
 import Navbar from "../Components/ui/Navbar";
+=======
+import EntrEmail from "../Components/common/EntrEmail"
+import Footer from "../components/ui/Footer"
+import Navbar from "../components/ui/Navbar"
+
+>>>>>>> 039f4a92a433697105cbacc7b59def227ed65b1a
 
 function PortfolioSingle() {
   // State orqali o'tkazilgan ma'lumotni olish
