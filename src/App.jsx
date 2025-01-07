@@ -8,7 +8,8 @@ import WhyChooseUs from "./Pages/WhyChooseUs";
 import Shop from "./Pages/Shop";
 import NotFaound from "./Pages/NotFaound";
 import RecentNews from "./Pages/RecentNews";
-import ContackUs from "./Pages/ContackUs";
+import BlogSingle from "./Pages/BlogSingle";
+import ContactUs from "./Pages/ContackUs";
 
 function App() {
   return (
@@ -20,10 +21,12 @@ function App() {
         <Route path="/service-single" element={<ServiceSingle />} />
         <Route path="/shop-single" element={<ShopSingle />} />
         <Route path="/team" element={<Team />} />
+        <Route path="/projects" element={<BlogSingle/>} />
         <Route path="/about" element={<WhyChooseUs />} />
         <Route path="/News" element={<RecentNews />} />
         <Route path="*" element={<NotFaound />} />
-        <Route path="/contackus" element={<ContackUs />} />
+        <Route path="/contact" element={<ContactUs />} />
+
       </Routes>
     </Router>
   );

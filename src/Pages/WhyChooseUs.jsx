@@ -1,11 +1,5 @@
 
-import EntrEmail from "../Components/common/EntrEmail";
-import Footer from "../Components/ui/Footer";
-import Navbar from "../Components/ui/Navbar";
-import LogoHeader from "../components/common/LogoHeader";
-import { GoArrowRight } from "react-icons/go";
-
-import React, { useState } from "react";
+import { useState } from "react";
 
 import {
   FaFacebook,

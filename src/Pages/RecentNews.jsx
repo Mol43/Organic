@@ -3,6 +3,7 @@ import { HiArrowCircleRight } from "react-icons/hi";
 import { MdPeopleAlt } from "react-icons/md";
 import Navbar from "../Components/ui/Navbar";
 import Footer from "../Components/ui/Footer";
+import LogoHeader from "../components/common/LogoHeader";
 
 const newsData = [
   {
@@ -70,7 +71,8 @@ function RecentNews() {
   return (
     <>
     <Navbar/>
-      <section className="grid grid-cols-1 md:grid-cols-2 gap-10 px-10 py-10 bg-gray-100">
+    <LogoHeader bgImg="./path.png" title="Recent  News" />
+      <section className="grid grid-cols-1 md:grid-cols-2 gap-10 px-10 mb-10 py-10 bg-gray-100">
         {newsData.map((news) => (
           <div key={news.id} className="relative">
             <div className="relative">
