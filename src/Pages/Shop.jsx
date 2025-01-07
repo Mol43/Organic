@@ -1,7 +1,7 @@
-import React from "react";
 import Navbar from "../Components/ui/Navbar";
 import Footer from "../Components/ui/Footer";
 import LogoHeader from "../components/common/LogoHeader";
+import { Link } from "react-router-dom";
 
 function Shop() {
   const products = [
@@ -16,65 +16,29 @@ function Shop() {
     },
     {
       id: 2,
-      name: "Calabrese Broccoli",
+      name: "Fresh Carrots",
       category: "Vegetable",
       image: "./Health.jpg",
-      oldPrice: 20.0,
-      price: 13.0,
-      rating: 4,
+      oldPrice: 25.0,
+      price: 15.0,
+      rating: 5,
     },
     {
       id: 3,
-      name: "Calabrese Broccoli",
+      name: "Green Lettuce",
       category: "Vegetable",
       image: "./Health.jpg",
-      oldPrice: 20.0,
-      price: 13.0,
-      rating: 4,
+      oldPrice: 18.0,
+      price: 12.0,
+      rating: 3,
     },
     {
       id: 4,
-      name: "Calabrese Broccoli",
+      name: "Organic Tomatoes",
       category: "Vegetable",
       image: "./Health.jpg",
-      oldPrice: 20.0,
-      price: 13.0,
-      rating: 4,
-    },
-    {
-      id: 5,
-      name: "Calabrese Broccoli",
-      category: "Vegetable",
-      image: "./Health.jpg",
-      oldPrice: 20.0,
-      price: 13.0,
-      rating: 4,
-    },
-    {
-      id: 6,
-      name: "Calabrese Broccoli",
-      category: "Vegetable",
-      image: "./Health.jpg",
-      oldPrice: 20.0,
-      price: 13.0,
-      rating: 4,
-    },
-    {
-      id: 7,
-      name: "Calabrese Broccoli",
-      category: "Vegetable",
-      image: "./Health.jpg",
-      oldPrice: 20.0,
-      price: 13.0,
-      rating: 4,
-    },
-    {
-      id: 8,
-      name: "Calabrese Broccoli",
-      category: "Vegetable",
-      image: "./Health.jpg",
-      oldPrice: 20.0,
-      price: 13.0,
+      oldPrice: 22.0,
+      price: 14.0,
       rating: 4,
     },
   ];
@@ -83,6 +47,13 @@ function Shop() {
     return (
       <div className="bg-white shadow-lg rounded-lg p-4 max-w-xs">
         <div className="relative">
+          <Link
+            to={{
+              pathname: "/shopSingle",
+            }}
+            state={product} // Mahsulot ma'lumotlarini state orqali yuboramiz
+            className="absolute top-0 left-0 w-full h-full"
+          ></Link>
           <span className="bg-green-100 text-green-800 text-sm font-medium px-2.5 py-0.5 rounded absolute top-2 left-2">
             {product.category}
           </span>
@@ -99,9 +70,7 @@ function Shop() {
             <span className="text-gray-500 line-through text-sm">
               ${product.oldPrice}
             </span>
-            <span className="text-gray-900 font-bold ml-2">
-              ${product.price}
-            </span>
+            <span className="text-gray-900 font-bold ml-2">${product.price}</span>
           </div>
           <div className="flex items-center">
             {[...Array(product.rating)].map((_, index) => (

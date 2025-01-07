@@ -1,20 +1,15 @@
-import { FaAngleRight } from "react-icons/fa"
-import LogoHeader from "../components/common/LogoHeader"
-import Footer from "../components/ui/Footer"
-import Navbar from "../components/ui/Navbar"
-import EntrEmail from "../Components/common/EntrEmail"
-
-
-
-
-
+import { Link } from "react-router-dom";
+import { FaAngleRight } from "react-icons/fa";
+import LogoHeader from "../components/common/LogoHeader";
+import EntrEmail from "../Components/common/EntrEmail";
+import Navbar from "../Components/ui/Navbar";
+import Footer from "../Components/ui/Footer";
 
 function Portfolio() {
-
   const Fruits = [
     {
       id: 1,
-      img: "/Green.png",
+      img: "/Lemon.png",
       title: "Green & Tasty Lemon",
       info: "Fruits",
     },
@@ -48,17 +43,17 @@ function Portfolio() {
       title: "Honey Orange",
       info: "Farmer",
     },
-  ]
-  
+  ];
+
   return (
     <div>
       <Navbar />
       <LogoHeader bgImg="/portfolioBG.png" title="Portfolio Standard" />
-
+      
       <div className="w-8/12 h-auto mx-auto my-20 grid grid-cols-3 gap-4">
-        {Fruits.map((item) => {
-          return (
-            <div key={item.id} className="w-full h-auto relative">
+        {Fruits.map((item) => (
+          <Link to="/portfolioSingle" state={{ fruit: item }} key={item.id}>
+            <div className="w-full h-auto relative">
               <img src={item.img} alt="img" className="w-full rounded-xl" />
               <h3 className="text-[25px] text-[#274C5B] font-semibold">{item.title}</h3>
               <p className="text-[22px] text-[#7EB693] font-sans">{item.info}</p>
@@ -68,13 +63,14 @@ function Portfolio() {
                 </div>
               </div>
             </div>
-          )
-        })}
+          </Link>
+        ))}
       </div>
+      
       <EntrEmail />
       <Footer />
     </div>
-  )
+  );
 }
 
-export default Portfolio
+export default Portfolio;
