@@ -1,7 +1,7 @@
 import { FaAngleRight } from "react-icons/fa"
-import LogoHeader from "../components/common/LogoHeader"
-import Footer from "../components/ui/Footer"
-import Navbar from "../components/ui/Navbar"
+import LogoHeader from "../Components/common/LogoHeader"
+import Footer from "../Components/ui/Footer"
+import Navbar from "../Components/ui/Navbar"
 import EntrEmail from "../Components/common/EntrEmail"
 
 

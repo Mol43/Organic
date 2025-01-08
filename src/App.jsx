@@ -26,7 +26,6 @@ function App() {
         <Route path="/News" element={<RecentNews />} />
         <Route path="*" element={<NotFaound />} />
         <Route path="/contact" element={<ContactUs />} />
-
       </Routes>
     </Router>
   );

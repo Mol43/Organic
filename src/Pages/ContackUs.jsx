@@ -5,7 +5,7 @@ import { SiMinutemailer } from 'react-icons/si';
 import { FaMapMarkerAlt } from "react-icons/fa";
 import Footer from '../Components/ui/Footer';
 import Navbar from '../Components/ui/Navbar';
-import LogoHeader from '../components/common/LogoHeader';
+import LogoHeader from '../Components/common/LogoHeader';
 function ContactUs() {
   return (
     <>

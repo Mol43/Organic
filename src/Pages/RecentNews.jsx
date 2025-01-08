@@ -3,7 +3,7 @@ import { HiArrowCircleRight } from "react-icons/hi";
 import { MdPeopleAlt } from "react-icons/md";
 import Navbar from "../Components/ui/Navbar";
 import Footer from "../Components/ui/Footer";
-import LogoHeader from "../components/common/LogoHeader";
+import LogoHeader from "../Components/common/LogoHeader";
 
 const newsData = [
   {

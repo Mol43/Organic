@@ -10,6 +10,11 @@ import {
   FaTruck,
   FaTwitter,
 } from "react-icons/fa";
+import LogoHeader from "../Components/common/LogoHeader";
+import Navbar from "../Components/ui/Navbar";
+import { GoArrowRight } from "react-icons/go";
+import EntrEmail from "../Components/common/EntrEmail";
+import Footer from "../Components/ui/Footer";
 
 const WhyChooseUs = () => {
   const [isChecked1, setIsChecked1] = useState(false);
