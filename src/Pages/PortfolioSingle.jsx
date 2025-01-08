@@ -1,6 +1,6 @@
 import EntrEmail from "../Components/common/EntrEmail"
-import Footer from "../components/ui/Footer"
-import Navbar from "../components/ui/Navbar"
+import Footer from "../Components/ui/Footer"
+import Navbar from "../Components/ui/Navbar"
 
 
 function PortfolioSingle() {
