@@ -10,16 +10,21 @@ import NotFaound from "./Pages/NotFaound";
 import RecentNews from "./Pages/RecentNews";
 import BlogSingle from "./Pages/BlogSingle";
 import ContactUs from "./Pages/ContackUs";
+import PortfolioSingle from "./Pages/PortfolioSingle";
 
 function App() {
+
+
+
   return (
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/portfolioSingle" element={<PortfolioSingle />} />
         <Route path="/shop" element={<Shop />} />
+        <Route path="/shopSingle" element={<ShopSingle />} />
         <Route path="/service-single" element={<ServiceSingle />} />
-        <Route path="/shop-single" element={<ShopSingle />} />
         <Route path="/team" element={<Team />} />
         <Route path="/projects" element={<BlogSingle/>} />
         <Route path="/about" element={<WhyChooseUs />} />
