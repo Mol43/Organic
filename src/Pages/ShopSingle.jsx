@@ -1,6 +1,6 @@
 import { useLocation } from "react-router-dom";
 import { FaArrowRight, FaStar } from "react-icons/fa";
-import LogoHeader from "../components/common/LogoHeader";
+import LogoHeader from "../Components/common/LogoHeader";
 import EntrEmail from "../Components/common/EntrEmail";
 import Navbar from "../Components/ui/Navbar";
 import Footer from "../Components/ui/Footer";
