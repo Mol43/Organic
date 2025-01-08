@@ -1,5 +1,5 @@
 import EntrEmail from "../Components/common/EntrEmail"
-import LogoHeader from "../components/common/LogoHeader"
+import LogoHeader from "../Components/common/LogoHeader"
 import Footer from "../Components/ui/Footer"
 import Navbar from "../Components/ui/Navbar"
 

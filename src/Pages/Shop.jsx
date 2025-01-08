@@ -1,6 +1,6 @@
 import Navbar from "../Components/ui/Navbar";
 import Footer from "../Components/ui/Footer";
-import LogoHeader from "../components/common/LogoHeader";
+import LogoHeader from "../Components/common/LogoHeader";
 
 function Shop() {
   const products = [
